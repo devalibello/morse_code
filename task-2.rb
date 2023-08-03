@@ -4,46 +4,46 @@
 # (e.g. decode_word("-- -.--") returns "MY").
 
 $morse_code_hash = {
-    ".-" => "A",
-    "-..." => "B",
-    "-.-." => "C",
-    "-.." => "D",
-    "." => "E",
-    "..-." => "F",
-    "--." => "G",
-    "...." => "H",
-    ".." => "I",
-    ".---" => "J",
-    "-.-" => "K",
-    ".-.." => "L",
-    "--" => "M",
-    "-." => "N",
-    "---" => "O",
-    ".--." => "P",
-    "--.-" => "Q",
-    ".-." => "R",
-    "..." => "S",
-    "-" => "T",
-    "..-" => "U",
-    "...-" => "V",
-    ".--" => "W",
-    "-..-" => "X",
-    "-.--" => "Y",
-    "--.." => "Z"
-  }
+  ".-" => "A",
+  "-..." => "B",
+  "-.-." => "C",
+  "-.." => "D",
+  "." => "E",
+  "..-." => "F",
+  "--." => "G",
+  "...." => "H",
+  ".." => "I",
+  ".---" => "J",
+  "-.-" => "K",
+  ".-.." => "L",
+  "--" => "M",
+  "-." => "N",
+  "---" => "O",
+  ".--." => "P",
+  "--.-" => "Q",
+  ".-." => "R",
+  "..." => "S",
+  "-" => "T",
+  "..-" => "U",
+  "...-" => "V",
+  ".--" => "W",
+  "-..-" => "X",
+  "-.--" => "Y",
+  "--.." => "Z"
+}
 
-  $decoded_word = []
+$decoded_word = []
 
-  def decode_word (word)
-    words_array = word.split
-    words_array.each do |letter|
-        $morse_code_hash.each do |key, value|
-            if letter == key
-                $decoded_word << value
-            end
-        end
+def decode_word(word)
+  words_array = word.split
+  words_array.each do |letter|
+    $morse_code_hash.each do |key, value|
+      if letter == key
+        $decoded_word << value
+      end
     end
-    puts $decoded_word.join
   end
+  puts $decoded_word.join
+end
 
-  decode_word("-- -.--") #Output = MY
+decode_word("-- -.--") # Output = MY
