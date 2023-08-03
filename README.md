@@ -1,7 +1,7 @@
-# Vet clinic database
+# Decode a Morse code message
 <br>
 <div align='center'>
-	<h1>Morse Decoder</h1>
+	<h1>Morse Code Decoder</h1>
   </div>
 <a name="readme-top"></a>
 
@@ -20,10 +20,9 @@
 - [📝 License](#license)
 
 
-# 📖  Diagram To Live Database <a name="about-project"></a>
+# 📖 Morse Code Decoder <a name="about-project"></a>
 
-**Diagram To Live Database** For this milestone of my project, a diagram containing various database tables were converted into a like database using mySQL. This was a task that was done using peer programming.
-
+**Morse Code Decoder** During our vacation at the seaside, my coding partner and  I discovered old bottles with parchment inside. To our surprise, one bottle contained a message written in Morse code. Intrigued by the possibility of finding a lost pirate treasure, we decided to automate the process of decrypting the messages. Leveraging our Ruby programming skills, we've created a Morse code decoder to assist us in this exciting quest.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -31,13 +30,13 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">Postgresql</></li>
+    <li><a href="https://www.ruby-lang.org/fr/">Ruby</a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- The database using optimizationa for faster database search.
+- Create our own Enumerable
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -56,7 +55,7 @@ The live demo will be availabe soon
   https://git-scm.com/downloads and install it).
 - Step 2: Once you have installed git you can clone this project using the command below:
   ```
-  git clone https://github.com/Gardimy/Vet_clinic_database
+  git clone https://github.com/Gardimy/Morse-decoder
   ```
 - Step 3: Once you have cloned this repo navigate to the folder that contains
   the repository.
@@ -67,24 +66,24 @@ The live demo will be availabe soon
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running cloning this repo `https://github.com/Gardimy/Vet_clinic_database`.
+To get a local copy up and running cloning this repo `https://github.com/Gardimy/Morse-decoder`.
 
 ### Prerequisites
 
 There are no known prerequisites to run this project.
 If you encounter any issues trying to run it, please feel free to
-[open a ticket](https://github.com/Gardimy/Vet_clinic_database/issues) to let me know and i will work on it to the best
+[open a ticket](https://github.com/Gardimy/Morse-decoder/issues) to let me know and i will work on it to the best
 of my abilities
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-`https://github.com/Gardimy/Vet_clinic_database`
+`git clone https://github.com/Gardimy/Morse-decoder`
 
 or
 
-`https://github.com/Gardimy/Vet_clinic_database` <-- _Only if you have [SSH keys configured](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on your GitHub account_.
+`git clone https://github.com/Gardimy/Morse-decoder` <-- _Only if you have [SSH keys configured](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on your GitHub account_.
 
 ### Usage
 
@@ -102,11 +101,10 @@ To run the project:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Ali Bello Imoukhuede**
-
-- GitHub: [@githubhandle](https://github.com/devalibello)
-- Twitter: [@twitterhandle](https://twitter.com/i_am_aalee)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ali-bello-imoukhuede/)
+> 👤 **Gardimy Charles**
+- GitHub: [@Gardimy](https://github.com/Gardimy)
+- Twitter: [@gardyelontiga45](https://twitter.com/gardyelontiga45)
+- LinkedIn: [Gardimy charles](https://www.linkedin.com/in/gardimy-charles)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,7 +114,7 @@ To run the project:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Gardimy/Vet_clinic_database/issues).
+Feel free to check the [issues page](https://github.com/Gardimy/Morse-decoder/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
