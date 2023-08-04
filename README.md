@@ -106,6 +106,11 @@ To run the project:
 - Twitter: [@gardyelontiga45](https://twitter.com/gardyelontiga45)
 - LinkedIn: [Gardimy charles](https://www.linkedin.com/in/gardimy-charles)
 
+👤 **Daniel Ochuba**
+- GitHub: [@danielochuba](https://github.com/danielochuba)
+- Twitter: [@ochuba_daniel](https://twitter.com/ochuba_daniel)
+- LinkedIn: [Daniel Ochuba](https://www.linkedin.com/in/daniel-ochuba-ugochukwu)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
